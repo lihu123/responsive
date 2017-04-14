@@ -1,0 +1,354 @@
+/*
+* @Author: lenovo
+* @Date:   2017-04-10 14:28:18
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-04-11 09:05:23
+*/
+*{
+    list-style: none;
+   	margin: 0;
+   	padding: 0;
+}
+a{
+	display: block;
+}
+img{
+	display: block;
+}
+.nav{
+	height: 83px;
+	background: #222222;
+}
+.nav1{
+	height: 83px;
+	border-bottom: 1px solid #DADADA;
+}
+.nava{
+	width: 30px;
+	height: 30px;
+	margin-top:25px; 
+	float: left;
+}
+.nava1{
+	width: 180px;
+	height: 50px;
+	margin-top: 15px;
+	float: left;
+}
+.nava1 a{
+	color: #9D9D8D;
+	font-size: 26px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.nava1 a:hover{
+	color: #fff;
+}
+.navb{
+	width: auto;
+	height: 83px;
+	float: right;
+}
+.navb li{
+	font-size: 20px;
+	color: #9D9D8D;
+	float: left;
+	line-height: 83px;
+	margin-right: 30px;
+}
+.navb1 li:hover{
+	color: #fff;
+}
+/* 导航栏结束 */
+/* banner   开始 */
+
+.banner{
+	height:auto;
+	background: #E75B37; 
+	background-image: url("../img/banner.png");
+	padding: 20px;
+	box-sizing: border-box;
+}
+.banner1{
+	height: auto;
+	/* background: yellow; */
+}
+.banner1 h1{
+	font-size: 52px;
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+}
+.banner1 p{
+	width: 70%;
+	color: #fff;
+	font-size: 32px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.banner2{
+	height: 63px;
+	/* background: blue; */
+	margin-top: 50px;
+}
+.banneraa{
+	width: 400px;
+	height: 63px;
+	margin: 0 auto;
+}
+.bannera{
+	width: 164px;
+	height: 63px;
+	background: red;
+	float: left;
+	margin-right: 20px;
+	border-radius: 15%;
+}
+.bannera a{
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 63px;
+	text-decoration: none;
+}
+.bannera:hover{
+	background: #DD4E2A;
+}
+/* banner  结束 */
+/* 栏目开始 */
+.column{
+	height: auto;
+	background: #DADADA;
+}
+.column1{
+	height: auto;
+	overflow: hidden;
+}
+/* .columna{
+	width: auto;
+	height: auto;
+} */
+.columna span{
+	display: block;
+	font-size: 24px;
+	line-height: 83px;
+	float: left;
+}
+.columna a{
+	float: left;
+	line-height: 83px;
+	font-size: 24px;
+	text-decoration: none;
+	float: left;
+}
+/* 栏目结束 */
+/* 内容开始 */
+.content{
+	/* background: red; */
+	overflow: hidden;
+}
+.content1{
+	height: auto;
+	padding: 0px 100px 0px;
+	box-sizing: border-box;
+
+}
+.content1 .content2{
+	height: 185px;
+	overflow: hidden;
+	padding: 0px 20px 0px;
+	box-sizing: border-box;
+}
+.content1 .content2 h2{
+	text-align: center;
+	margin-top: 15px;
+}
+.content1 .content3{
+	height: 185px;
+	overflow: hidden;
+	padding: 0px 20px 0px;
+	box-sizing: border-box;
+}
+.content1 .content3 h2{
+	text-align: center;
+}
+/* 内容结束 */
+/* 指南开始 */
+.guide{
+	width: 100%;
+	height: auto;
+	/* background: red; */
+}
+.guide1{
+	height: auto;
+	/* background: blue; */
+	border-top: 1px solid #DADADA;
+}
+.guide1 p{
+	width: 100%;
+	height: auto;
+	font-size: 22px;
+	text-align: center;
+	color: #C04111;
+	margin: 0 auto;
+	word-break: break-all;
+	padding: 0 10% 0;
+	box-sizing: border-box;
+	margin-top: 30px;
+
+}
+.guidea{
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	border-bottom: 1px solid #DADADA;
+}
+.guidea a{
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	float: left;
+}
+.guidea p{
+	font-size: 20px;
+	float: left;
+}
+/* 指南结束 */
+/* 页脚开始 */
+.footer{
+	height: auto;
+	margin-top: 50px;
+}
+.footer1{
+	height: 39px;
+}
+.footer2{
+	width: 200px;
+	height: 39px;
+	margin: 0 auto;
+}
+.footer2 img{
+	display: block;
+	float: left;
+	margin-top: 5px;
+}
+.footer2 p{
+	float: left;
+	font-size: 26px;
+	line-height: 39px;
+}
+.footerb{
+	height: auto;
+	padding: 20px 200px 20px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 80px;
+}
+.footerb p{
+	font-size: 20px;
+	text-align: center;
+}
+.footerc{
+	height: 50px;
+}
+.footerc1{
+	width: 155px;
+	margin: 0 auto;
+	margin-top: -5px;
+}
+.footerc2{
+	width: 74px;
+	height: 29px;
+	background: #DADADA;
+	float: left;
+	border-radius: 15%;
+}
+.footerc2 img{
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
+}
+.footerc2 p{
+	font-size: 20px;
+	float: left;
+	line-height: 29px;
+}
+.footerc3{
+	width: 74px;
+	height: 29px;
+	background: #DADADA;
+	float: left;
+	margin-left: 7px;
+	border-radius: 15%;
+}
+.footerc3 p{
+	font-size: 20px;
+	text-align: center;
+	line-height: 29px;
+}
+.footerd{
+	height: 30px;
+}
+.footerd1{
+	height: 30px;
+}
+.footerd1 span{
+	display: block;
+	font-size: 20px;
+	text-align: center;
+}
+.footere{
+	height: 48px;
+	margin-top: 20px;
+}
+.footere img{
+	margin: 0 auto;
+}
+.footerf{
+	height: 50px;
+}
+.footerf1{
+	height: 50px;
+	border-bottom: 1px solid #DADADA;
+}
+/* 页脚结束 */
+/* 底部开始 */
+.body{
+	height: auto;
+	margin-top: 30px;
+}
+.body1{
+	height: 38px;
+}
+.body1 p{
+	font-size: 20px;
+	text-align: center;
+}
+.body2{
+	width: 1220px;
+	height: 290px;
+	display: flex;
+	flex-wrap: wrap;
+	/* 换行 */
+	padding-top: 10px;
+	justify-content: space-around;
+	/* 多余部分平均分配 */
+}
+.bodya{
+	width: 195px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+}
+
+.bodyb{
+	width: 195px;
+	height: 64px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
